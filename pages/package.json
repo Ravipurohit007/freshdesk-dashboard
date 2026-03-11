@@ -1,0 +1,36 @@
+{
+  "name": "freshdesk-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "next": "^13.0.0",
+    "lucide-react": "latest"
+  }
+}
+```
+
+4. Click **Commit new file**
+
+---
+
+## Step 3: Vercel Auto-Deploys
+
+1. Vercel watches your GitHub repo
+2. When you push the new files, Vercel **automatically detects** the Next.js project
+3. It deploys both the `/api` function AND the `/pages` dashboard
+4. **Wait 2-3 minutes** for deployment to complete
+
+---
+
+## Step 4: View Your Live Dashboard
+
+Your dashboard is now live at:
+```
+https://freshdesk-dashboard.vercel.app/
